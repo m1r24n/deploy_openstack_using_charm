@@ -93,8 +93,3 @@
         openstack security group rule create --ingress --proto tcp --dst-port 22 --remote-ip 0.0.0.0/0  SG10
         openstack security group rule create --ingress --proto icmp --remote-ip ::/0 --ethertype ipv6 SG10
         openstack security group rule create --ingress --proto icmp --remote-ip 0.0.0.0/0  SG10
-    \
-
-6. recover from shutdown
-
-       juju run-action --wait mysql-innodb-cluster/1 reboot-cluster-from-complete-outage
