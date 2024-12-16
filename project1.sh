@@ -1,0 +1,12 @@
+OS_REGION_NAME=RegionOne
+OS_AUTH_VERSION=3
+OS_CACERT=/home/irzan/snap/openstackclients/common/root-ca.crt
+OS_AUTH_URL=https://192.168.110.142:5000/v3
+OS_PROJECT_DOMAIN_NAME=domain1
+OS_AUTH_PROTOCOL=https
+OS_USERNAME=admin
+OS_AUTH_TYPE=password
+OS_USER_DOMAIN_NAME=admin_domain
+OS_PROJECT_NAME=project1
+OS_PASSWORD=eimuSh8waigh9ITh
+OS_IDENTITY_API_VERSION=3

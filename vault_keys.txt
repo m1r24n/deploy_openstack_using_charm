@@ -1,0 +1,41 @@
+Unseal Key 1: Q2itZpX3iAay4L0jZ61UrRkNscTNjHW+wINZMtCyy41B
+Unseal Key 2: ffMIQVgApO/1NUfclJoagvg9auTJlmjRB8Mkk4hUvPzi
+Unseal Key 3: lKk0rscvbEOkuz3Uej367TIrj1oFKg0aVYLoNPzTNQbo
+Unseal Key 4: qjKRiQrYQKrjbscriQq0wtMbVHoBMBB1ksKVlaQ1QndL
+Unseal Key 5: o5J9n9zkGRhndmSYghwiIgKyMkOwCMvI1IVNORvZxq8R
+
+Initial Root Token: s.lyJ0rdgeMX7HeZGvvHqBWi0a
+
+Vault initialized with 5 key shares and a key threshold of 3. Please securely
+distribute the key shares printed above. When the Vault is re-sealed,
+restarted, or stopped, you must supply at least 3 of these keys to unseal it
+before it can start servicing requests.
+
+Vault does not store the generated root key. Without at least 3 keys to
+reconstruct the root key, Vault will remain permanently sealed!
+
+It is possible to generate new unseal keys, provided you have a quorum of
+existing unseal keys shares. See "vault operator rekey" for more information.
+
+ca.crt
+  -----BEGIN CERTIFICATE-----
+  MIIDazCCAlOgAwIBAgIUcgllEp0S6OrdahTlsD2vJOoPga0wDQYJKoZIhvcNAQEL
+  BQAwPTE7MDkGA1UEAxMyVmF1bHQgUm9vdCBDZXJ0aWZpY2F0ZSBBdXRob3JpdHkg
+  KGNoYXJtLXBraS1sb2NhbCkwHhcNMjQxMjE2MDcxMTMxWhcNMzQxMjE0MDYxMjAw
+  WjA9MTswOQYDVQQDEzJWYXVsdCBSb290IENlcnRpZmljYXRlIEF1dGhvcml0eSAo
+  Y2hhcm0tcGtpLWxvY2FsKTCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEB
+  ANNe0XxlKdgWIyxRiYoqv/wkWcLEbcZVnFEGmYKdc2Gni3D6aHtw51/mug6dDE67
+  93cq1CcMHoIt0npfVJFWKH8YgkbwBGqahou/TcG3DmCw/blj5HJqI1QxBSq/f0vw
+  JY+dltNX9VD1rQD+0F7q/SZe4B5+KmleNT3JtajR/E1xLcD8st8uRTIcr85kLMG2
+  q4adXzVvlIw74ysY9j39IKV04WcaVlFpnPB5aVfCEY/cgvhjvoZTzusHIzdownMZ
+  JnTQ9EvZul6hISQGbShZI6DbjWdTyFHzyvUu20h9vcUI8XrEqddvbrz0N9bOB/K6
+  2ff8up39McWe5ST6k7XScl0CAwEAAaNjMGEwDgYDVR0PAQH/BAQDAgEGMA8GA1Ud
+  EwEB/wQFMAMBAf8wHQYDVR0OBBYEFOaYTyAhABfZj+8La5hoI69qiJq/MB8GA1Ud
+  IwQYMBaAFOaYTyAhABfZj+8La5hoI69qiJq/MA0GCSqGSIb3DQEBCwUAA4IBAQDM
+  vX4OWRykVbHgkQu/rSsBzYB8zPO8PB5yf8e07z1MIbxMqQKXJOiOnJ9nvwvZyT/e
+  d4QlHAlslOzjxco1MWaH8FXNnX2OjLoucQas6CXjsPXCs9ItDPpO1Vt6NkwlC/Jm
+  zYfGxsp/5pb7SbXjroQ6Xzdl6jaDfZ6GsKOG7KfXIzXJ3GjQ32BYYjmCSLCY3r+0
+  y/vLN/4qnhl4ztmeSidJGhqj4LFumYpB68sxqgy2+JacthaYWZqSuaxtVZ1bQ27d
+  uM83SvnGi8omABAD00vrc1c7FX0aACQ1MUF8Szwab8g8Ty+w2pQNhzWY6eVWMyqa
+  GAv5PLinTKXr5BZXx4mO
+  -----END CERTIFICATE-----
