@@ -47,6 +47,13 @@
         openstack security group create --description 'Allow SSH' Allow_SSH
         openstack security group rule create --proto tcp --dst-port 22 Allow_SSH
 
+
+        openstack security group create --description "This is the new SG" SG1
+        openstack security group rule create --ingress --protocol icmp --remote-ip 0.0.0.0/0 SG1
+        openstack security group rule create --ingress --protocol icmp --remote-ip ::/0 --ethertype ipv6 SG1
+        openstack security group rule create --ingress --protocol tcp --dst-port 22  --remote-ip ::/0 --ethertype ipv6 SG1
+        openstack security group rule create --ingress --protocol tcp --dst-port 22  --remote-ip 0.0.0.0/0  SG1
+
         openstack server create --image cirros --flavor m1.tiny --key-name key1 --network project1_net --boot-from-volume 1  vm1
 
         openstack server create --image cirros --flavor m1.tiny --key-name key1 --network user1_net --boot-from-volume 1 --security-group Allow_SSH vm1
